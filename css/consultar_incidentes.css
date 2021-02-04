@@ -1,0 +1,41 @@
+table {
+    width: 100%;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    border: 1px solid #fff;
+}
+tr{
+    width: 100%;
+    position: relative;
+    text-align: left;
+}
+th {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    width: 5%;
+}
+.eliminar {
+    text-align: center;
+}
+button {
+    border: none;
+    background: none;
+    color: red;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+}
+button:focus {
+    outline: none;
+}
+thead {
+    background: #396afc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    color: #fff;
+    
+}

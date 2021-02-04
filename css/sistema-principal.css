@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor-header-menu h5 {
+    font-family: 'Roboto Condensed';
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+.contenedor-menu {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    height: 100%;
+}
+.menu-navegacion {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    font-family: 'Roboto';
+    transition: 0.4s ease-in;
+    height: 100%;
+    border: 1px solid;
+    border-color: transparent;
+}
+.menu-navegacion:hover {
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+}
+@media screen and (max-width: 527px) {
+    .menu-navegacion {
+        display: block;
+    }
+}
+.btn-ham button {
+    font-family: 'Roboto';
+    padding: 10px;
+}
+/*SECCION DEL HEADER Y DEL MENU*/
+/*SECCION TERMINADA*/
+
+.contenedor-titulo {
+    margin-top: 10px;
+    text-align: center;
+    background: #EDEAEA;
+    opacity: 80%;
+}
+.contenedor-titulo h1 {
+    padding: 20px;
+    padding-bottom: 5px;
+    font-family: 'Roboto Slab';
+    color: #000;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.contenedor-titulo h2 {
+    font-size: 20px;
+    margin-bottom: 27px;
+    font-family: 'Roboto';
+    color: #000;
+    font-weight: 500;
+}
+.contenedor-secciones {
+    margin-top: 50px;
+    text-align: center;
+}
+.secciones-globales {
+    border-radius: 10px;
+    display: block;
+    padding: 30px;
+    margin-bottom: 25px;
+}
+.secciones-globales h3 {
+    font-family: 'Roboto Condensed';
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.secciones-globales i {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.secciones-globales p {
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.secciones-globales a {
+    color: #000;
+    background: #fff;
+    text-decoration: none;
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+
+}
+.secciones-globales a:hover {
+    width: 90%;
+}
+.sec-1 {
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.sec-2 {
+    background: #396afc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */  
+    background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.sec-3 {
+    background: #673AB7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #512DA8, #673AB7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #512DA8, #673AB7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+}
+.sec-4 {
+    background: #e52d27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.sec-5 {
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.sec-6 {
+    background: #06beb6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+}

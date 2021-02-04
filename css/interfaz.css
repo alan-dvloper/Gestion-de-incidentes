@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor-principal {
+    padding-left: 0;
+    width: 100%;
+    height: 100%
+}
+.contenedor-img img {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    margin: auto;
+}
+.contenedor-texto-acceso {
+    padding: 10px;
+    position: relative;
+    display: block;
+    height: 100vh;
+}
+.contenedor-texto-acceso h2 {
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 20px;
+}
+.contenedor-texto-acceso p {
+    text-align: center;
+    font-family: 'Roboto';
+    color: #000;
+    width: 70%;
+    margin: auto;
+}
+.contenedor-texto-acceso h3 {
+    margin-top: 50px;
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    margin-left: 30px;
+}
+.contenedor-texto-acceso ul {
+    margin-top: 20px;
+    list-style: none;
+}
+.contenedor-texto-acceso li {
+    font-family: 'Roboto';
+    margin-bottom: 15px;
+}
+.contenedor-texto-acceso li i {
+    color: #EE3535;
+    margin-right: 5px;
+    font-size: 20px;
+}
+.contenedor-btn-acceso {
+    display: block;
+    margin: 50px auto;
+    text-align: center;
+}
+.btn-acces {
+    display: block;
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+    text-decoration: none;
+    background: #2B94C1;
+    color: #fff;
+    font-family: 'Roboto Condensed';
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    border-radius: 5px;
+}
+.btn-acces:hover {
+    background: #155672;
+    color: #fff;
+}
+.contenedor-texto-acceso h5 {
+    text-align: center;
+    font-family: 'Roboto Slab';
+    margin-top: 30px;
+    font-weight: bold;
+}
+@media screen and (max-width: 759px) {
+    .contenedor-img img {
+        width: 100%;
+        height: 100vh;
+        display: block;
+        margin: auto;
+        padding: 10px;
+    }
+    .contenedor-principal {
+        width: 100%;
+        height: 100%;
+        padding-left: 10px;
+    }
+}

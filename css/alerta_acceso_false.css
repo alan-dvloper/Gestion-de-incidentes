@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title-alert {
+    font-family: 'Roboto Condensed';
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+.btn-reset {
+    display: block;
+    border: 1px solid blue;
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+@media screen and (max-width: 700px){
+    .btn-reset {
+        width: 70%;
+    }
+}
